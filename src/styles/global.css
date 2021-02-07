@@ -1,5 +1,57 @@
-.App {
-  width: 100px;
-  height: 100px;
-  background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --black-primary: #040517;
+  --blue-primary: #200f56;
+  --white-primary: #e5e5e5e7;
+  --white-secondary: #f5f5f555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #0d1226 0%, #1f1734 100%);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container-app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Style global */
+
+.text-title {
+  font-size: 16px;
+  color: var(--white-primary);
+}
+
+.text-primary {
+  font-size: 12px;
+  color: var(--white-primary);
+}
+
+.text-hover-primary {
+  font-size: 12px;
+  color: var(--white-secondary);
+}
+
+.text-hover-primary:hover {
+  color: var(--white-primary);
 }
