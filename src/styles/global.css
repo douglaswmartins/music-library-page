@@ -52,6 +52,7 @@ ul {
   color: var(--white-secondary);
 }
 
+.text-hover-primary.active,
 .text-hover-primary:hover {
   color: var(--white-primary);
 }

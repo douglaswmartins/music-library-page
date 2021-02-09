@@ -24,6 +24,10 @@
   object-fit: cover;
 }
 
+.content-profile {
+  flex: 1;
+}
+
 .content-profile p {
   cursor: pointer;
   display: flex;
@@ -68,6 +72,7 @@
 .content-list-sidebar li:nth-child(5) {
   padding: 25px 0 4px 0;
 }
+
 .content-list-sidebar li p {
   display: flex;
   align-items: center;

@@ -1,11 +1,12 @@
-import '../../styles/components/sidebar.css';
-import { IconBase } from 'react-icons';
+import { useState } from 'react';
 import { FiSettings } from 'react-icons/fi';
-import imageProfile from '../../images/profile.jpg';
 
+import '../../styles/components/sidebar.css';
+import imageProfile from '../../images/profile.jpg';
 import sidebarItems from '../../utils/sidebarItems';
 
 function Sidebar() {
+  const [activated, setActivated] = useState(0)
   
   return (
     <div className="container-sidebar">
@@ -32,10 +33,18 @@ function Sidebar() {
       <main>
         
         <ul className="content-list-sidebar">
-          {sidebarItems.map(item => {
+          {sidebarItems.map((item, index) => {
             return (
-              <li key={item.name}>
-                <p className="text-hover-primary">
+              <li
+                key={item.name}
+                onClick={() => setActivated(index)}
+              >
+                <p
+                  className={
+                    (activated === index ? 'active' : '')
+                    + ' text-hover-primary'
+                  }
+                >
                   { item.icon }
                   { item.name }
                 </p>
