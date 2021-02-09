@@ -1,18 +1,23 @@
+import { BrowserRouter } from 'react-router-dom';
+
 import './styles/global.css';
 
+import Routes from './routes';
 import Sidebar from './components/sidebar/Sidebar';
 
 function App() {
   return (
-    <div className="container-app">
+    <BrowserRouter>
+      <div className="container-app">
 
-      <Sidebar/>
+        <Sidebar/>
 
-      <div className="content">
-        <h1>Hello App</h1>
+        <div className="content">
+          <Routes />
+        </div>
+
       </div>
-
-    </div>
+    </BrowserRouter>
   );
 }
 
