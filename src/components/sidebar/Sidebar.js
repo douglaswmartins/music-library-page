@@ -3,7 +3,7 @@ import { FiSettings } from 'react-icons/fi';
 
 import '../../styles/components/sidebar.css';
 import imageProfile from '../../images/profile.jpg';
-import sidebarItems from '../../utils/sidebarItems';
+import sidebarItems from '../../utils/mocks/sidebarItems';
 
 function Sidebar() {
   const [activated, setActivated] = useState(0)

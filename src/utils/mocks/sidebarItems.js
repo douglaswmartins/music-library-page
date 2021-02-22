@@ -7,7 +7,7 @@ import {
   FiMessageSquare,
   FiBell,
   FiUser
-} from 'react-icons/fi';
+} from 'react-icons/fi'
 
 const sidebarItems = [
   { icon: <FiAperture size={18}/>       , name: 'Overview'      },
@@ -20,4 +20,4 @@ const sidebarItems = [
   { icon: <FiUser size={18}/>           , name: 'Account'       }
 ]
 
-export default sidebarItems;
+export default sidebarItems
