@@ -10,6 +10,7 @@
 * {
   margin: 0;
   padding: 0;
+  outline: transparent;
   overflow: hidden;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -32,13 +33,15 @@ ul {
 
 .content {
   flex: 1;
+  display: flex;
   overflow-y: auto;
+  justify-content: center;
 }
 
 /* Style global */
 
 .text-title {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--white-primary);
 }
 
@@ -55,4 +58,16 @@ ul {
 .text-hover-primary.active,
 .text-hover-primary:hover {
   color: var(--white-primary);
+}
+
+.container-component {
+  width: 100%;
+  padding: 0 40px;
+  max-width: 1440px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
 }

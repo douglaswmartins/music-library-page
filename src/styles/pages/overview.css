@@ -1,0 +1,39 @@
+.wrapper-search {
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+input.input-search {
+  width: 100%;
+  max-width: 400px;
+  font-size: 14px;
+  color: var(--white-primary);
+  border: 0;
+  background: none;
+}
+
+input.input-search::placeholder {
+  color: var(--white-secondary);
+}
+
+input.input-search ~ label {
+  color: var(--white-secondary);
+  cursor: pointer;
+  display: flex;
+  padding-right: 15px;
+  transition: color 100ms ease-in-out;
+}
+input.input-search ~ label:hover,
+input.input-search:hover ~ label {
+  color: var(--white-primary);
+}
+
+/*
+.wrapper-playlists {
+  height: 45%;
+}
+
+.wrapper-profile-views {
+  height: 45%;
+} */
