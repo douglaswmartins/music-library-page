@@ -25,6 +25,13 @@ ul {
   list-style: none;
 }
 
+img {
+  -o-user-drag: none;
+  -moz-user-drag: none;
+  -khtml-user-drag: none;
+  -webkit-user-drag: none;
+}
+
 .container-app {
   width: 100vw;
   height: 100vh;

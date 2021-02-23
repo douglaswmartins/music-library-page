@@ -21,7 +21,7 @@ function Sidebar() {
             Dany Schudler
           </h1>
 
-          <p className="text-hover-primary">
+          <p className="text-secondary text-hover-primary">
             Edit profile
             <FiSettings size={15}/>
           </p>
@@ -42,7 +42,7 @@ function Sidebar() {
                 <p
                   className={
                     (activated === index ? 'active' : '')
-                    + ' text-hover-primary'
+                    + ' text-secondary text-hover-primary'
                   }
                 >
                   { item.icon }
