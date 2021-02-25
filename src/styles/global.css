@@ -41,6 +41,7 @@ img {
 .content {
   flex: 1;
   display: flex;
+  position: relative;
   overflow-y: auto;
   justify-content: center;
 }
@@ -70,6 +71,7 @@ img {
 .container-component {
   width: 100%;
   padding: 0 40px;
+  position: absolute;
   max-width: 1440px;
 }
 

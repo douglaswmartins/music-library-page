@@ -6,19 +6,19 @@
 }
 
 .wrapper-playlists {
-  height: calc(45% - 30px);
   flex-direction: column;
 
 }
 .wrapper-profile-tracks {
-  height: calc(55% - 30px);
-  flex-direction: row;
+  padding: 0;
+  flex-wrap: wrap-reverse;
 }
 
 .wrapper-tracks,
 .wrapper-profile {
+  flex: 1 1 400px;
   margin: 0;
-  padding: 0 15px;
+  padding: 20px 15px;
   flex-direction: column;
 }
 
