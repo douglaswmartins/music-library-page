@@ -20,4 +20,4 @@ O projeto é uma página de reprodução de músicas, semelhante ao Spotify, ond
 
 
 # 💡 Devchallenge
-[Desafio](https://github.com/mannoeu/landing-page-music) retirado do site [DevChallenge](https://devchallenge.now.sh/) desenvolvido por.
+[Desafio](https://github.com/mannoeu/landing-page-music) retirado do site [DevChallenge](https://devchallenge.now.sh/).
