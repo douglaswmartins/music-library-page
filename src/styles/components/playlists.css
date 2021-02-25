@@ -1,0 +1,29 @@
+.wrapper-playlists {
+  flex-direction: column;
+}
+
+.wrapper-playlists .carousel-item .container-image img {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: transform 250ms ease-out, opacity 150ms ease-out;
+  border-radius: 12px;
+}
+
+.wrapper-playlists .carousel-item .container-image img:hover {
+  transform: scale(1.125);
+  opacity: 1;
+}
+
+.carousel-item p {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.wrapper-playlists .carousel-item {
+  min-width: 350px;
+}
+
+.wrapper-playlists .carousel-item .container-image {
+  width: 350px;
+  height: 225px;
+}
